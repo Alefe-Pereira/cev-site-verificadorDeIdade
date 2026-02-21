@@ -71,7 +71,7 @@ function verificar() {
 
         }
         resu.style.textAlign = 'center' 
-        resu.innerHTML = `Detectamos ${genero} com ${idade} anos.`  
+        resu.innerHTML = `Detectamos ${genero} com ${idade-1} ou ${idade} anos.`  
         resu.appendChild(img)
         
 
